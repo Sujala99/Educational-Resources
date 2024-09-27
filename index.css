@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Styling the .content-left */
+.content-left {
+    font-family: "Times New Roman", serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Resizing for mobile */
+@media (max-width: 768px) {
+    .content-left {
+        font-size: 1.2rem;
+    }
+}
+
+/* Ensuring responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .content-left h1 {
+        font-size: 1.5rem;
+    }
+    
+    .image-container {
+        justify-content: center;
+        padding: 0;
+    }
+    
+    #categories-section ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Mission and contact sections */
+#mission, #contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+  .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: #575757;
+      border-radius: 5px;
+    }
+
+    .col ms-auto{
+    	background-color: yellow;
+    }
+
+    /* Styling the .content-left */
+.content-left {
+    font-family: "Times New Roman", serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Styling paragraphs inside .content-left */
+.content-left p {
+    font-size: 50px; /* Adjust font size specifically for the paragraph */
+    margin-bottom: 100px; /* Add margin below the paragraph */
+    text-align: center; /* Adjust text alignment if necessary */
+}
+
+
+    .content-left .features{
+    	font-family: "Times New Roman";
+    	text-align: center; /* Adjust text alignment if necessary */
+
+    }
+
+    .features li {
+    margin-bottom: 20px;
+}
+
+
+#featured {
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+#home {
+    padding: 20px 0;
+}
+
+#home h3, #home h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#featured ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#featured ul li {
+    margin-bottom: 20px;
+}
+
+#featured ul li h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-left {
+    margin-right: 40px; /* Adds gap between content and image */
+}
+
+.image-container {
+    padding-left: 20px; /* Ensures the image is further to the right */
+}
+
+@media (max-width: 768px) {
+    .content-left {
+        margin-right: 0; /* Removes the margin on smaller screens */
+    }
+
+    .image-container {
+        justify-content: center; /* Center the image on smaller screens */
+        padding-left: 0;
+    }
+
+    #home img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+    #home img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
+#about {
+    padding: 20px 0;
+}
+
+#about h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+#mission, #contact {
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Ensure that the sections are responsive */
+@media (max-width: 768px) {
+    .col-md-6 {
+        margin-bottom: 30px; /* Adds spacing between sections on smaller screens */
+    }
+}
+
+
+
+ .content-left h1 {
+            font-size: 1.8rem; /* Smaller font size for mobile */
+        }
+
+        .features h4, .features h6 {
+            font-size: 1.2rem;
+        }
+
+        /* For larger devices */
+        @media (min-width: 768px) {
+            .content-left h1 {
+                font-size: 2.5rem; /* Larger font for desktop */
+            }
+        }
+
+        /* Make iframe responsive */
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
